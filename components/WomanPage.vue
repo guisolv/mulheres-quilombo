@@ -17,11 +17,10 @@
 
         <div v-for="text in woman.paragraphs" :key="text.name" class="">
             <div class="w-full my-4 border-t-2 border-dashed" />
-            <h2 v-motion-slide-visible-left class="text-4xl">{{ text.name }}</h2>
+            <h2 class="text-4xl">{{ text.name }}</h2>
             <p 
                 v-for="pt in text.paragraph.split('\n')" 
                 :key="pt" 
-                v-motion-slide-visible-right 
                 class="text-lg indent-10 leading-relaxed mb-4 text-justify"
                 >
                 {{ pt }}

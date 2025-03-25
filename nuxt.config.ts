@@ -11,7 +11,7 @@ export default defineNuxtConfig({
       ]
     }
   },
-  modules: ['@nuxt/eslint', '@nuxtjs/tailwindcss', '@vueuse/motion/nuxt'],
+  modules: ['@nuxt/eslint', '@nuxtjs/tailwindcss'],
   tailwindcss: {
     exposeConfig: true,
     viewer: true
