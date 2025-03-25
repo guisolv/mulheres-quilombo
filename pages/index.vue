@@ -13,7 +13,11 @@
         <h1 class="text-7xl text-center mt-12">Mulheres do quilombo</h1>
 
 
-        <WomanPage :woman="womans[0]" />
+        <div v-for="woman in womans" :key="woman.name">
+            <WomanPage :woman="woman"/>
+            
+            <div class="w-full my-4 border-t-2 border-dashed border-black" />
+        </div>
     </main>
 </template>
 
