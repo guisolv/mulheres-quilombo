@@ -9,19 +9,19 @@
 </script>
 
 <template>
-    <main class="bg-red-500">
-        <h1 class="text-5xl text-center mt-12">Mulheres do quilombo</h1>
+    <main class="bg-red-500 px-20">
+        <h1 class="text-7xl text-center mt-12">Mulheres do quilombo</h1>
 
 
         <WomanPage :woman="womans[0]" />
     </main>
 </template>
 
-<style>
+<style scoped>
 
 h1 {
-    font-family: Raleway, serif;
-    font-weight: 500;
+    font-family: Crimson Pro, serif;
+    font-weight: 600;
 }
 
 </style>
