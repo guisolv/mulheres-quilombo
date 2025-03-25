@@ -22,7 +22,8 @@ export default defineNuxtConfig({
         wght: '200..900',
         ital: '200..700',
       }
-    }
+    },
+    preload: true
   }
 
 })
