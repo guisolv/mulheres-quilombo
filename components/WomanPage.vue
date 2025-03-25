@@ -12,6 +12,23 @@
     <main>
         <h1>{{ woman.name }}</h1>
 
-        <p>{{ woman.paragraphs }}</p>
+        <div v-for="text in woman.paragraphs" :key="text.name">
+            <h2 class="text-4xl">{{ text.name }}</h2>
+            <p class="text-lg indent-10">{{ text.paragraph }}</p>
+        </div>
     </main>
 </template>
+
+<style scoped>
+
+h2 {
+    font-family: Crimson Pro, serif;
+    font-weight: 600;
+}
+
+p {
+    font-family: Roboto Slab;
+    font-weight: 400;
+}
+
+</style>

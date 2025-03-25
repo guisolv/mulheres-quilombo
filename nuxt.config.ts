@@ -10,7 +10,7 @@ export default defineNuxtConfig({
   googleFonts: {
     families: {
       'Roboto Slab': {
-        wght: [300, 500, 600]
+        wght: [300, 400, 500, 600]
       },
       Inter: [400, 700],
       'Josefin+Sans': true,

@@ -9,7 +9,7 @@
 </script>
 
 <template>
-    <main class="bg-red-500 px-20">
+    <main class="px-20">
         <h1 class="text-7xl text-center mt-12">Mulheres do quilombo</h1>
 
 
