@@ -9,14 +9,16 @@
 </script>
 
 <template>
-    <main class="px-20">
-        <h1 class="text-7xl text-center mt-12">Mulheres do quilombo</h1>
+    <main class="bg-slate-200">
+        <div class="bg-neutral-50  px-14 xl:w-6/12 lg:w-3/5 md:w-4/5 mx-auto border-x-2">
+            <h1 class="text-7xl text-center py-12">Mulheres do quilombo</h1>
 
 
-        <div v-for="woman in womans" :key="woman.name">
-            <WomanPage :woman="woman"/>
-            
-            <div class="w-full my-4 border-t-2 border-dashed border-black" />
+            <div v-for="woman in womans" :key="woman.name">
+                <WomanPage :woman="woman"/>
+
+                <div class="w-full my-4 border-t-2 border-dashed border-black" />
+            </div>
         </div>
     </main>
 </template>
