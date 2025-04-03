@@ -1,12 +1,26 @@
-import type WomanData from '#shared/types/womanData'
 
-export default <Array<WomanData>>[
+export interface Paragraph {
+    name: string,
+    paragraph: string,
+    image?: string
+}
+
+export interface IWomanData {
+    name: string,
+    paragraphs: Array<Paragraph>
+}
+
+
+//=======================
+
+export const womanData = <Array<IWomanData>>[
     {
         "name": "Katú Mirim",
         "paragraphs": [
             {
                 "name": "Biografia",
-                "paragraph": "Katú Mirim é uma rapper, cantora, compositora, atriz e ativista da causa indígena. Katú Mirim é reconhecida por suas letras, que através do rap/rock, reconta a história da colonização pela ótica indígena, através do rap ela fala das suas vivências, identidade, gênero e orientação sexual.\nKatú mirim nasceu e cresceu  no interior paulista, ainda bebê foi adotada  e na infância descobriu que foi adotada ao completar seus 13 anos ela descobriu ser filha biológica de pai indígena e mãe negra, logo ela foi atrás da história do seu pai e estudou sua cultura,e assim se declarou indígena boe bororo e na internet viralizou postando a hashtag que índio não é fantasia rapper, cantora, compositora, atriz e ativista, em seu rap ela traz a história dos indígenas e fala sobre as mulheres ,e tentam retomar o resgate da ancestralidade"
+                "paragraph": "Katú Mirim é uma rapper, cantora, compositora, atriz e ativista da causa indígena. Katú Mirim é reconhecida por suas letras, que através do rap/rock, reconta a história da colonização pela ótica indígena, através do rap ela fala das suas vivências, identidade, gênero e orientação sexual.\nKatú mirim nasceu e cresceu  no interior paulista, ainda bebê foi adotada  e na infância descobriu que foi adotada ao completar seus 13 anos ela descobriu ser filha biológica de pai indígena e mãe negra, logo ela foi atrás da história do seu pai e estudou sua cultura,e assim se declarou indígena boe bororo e na internet viralizou postando a hashtag que índio não é fantasia rapper, cantora, compositora, atriz e ativista, em seu rap ela traz a história dos indígenas e fala sobre as mulheres ,e tentam retomar o resgate da ancestralidade",
+                "image": "/katu-mirim_retrato_1200x675.jpg" 
             },
             {
                 "name": "Sua importância",
