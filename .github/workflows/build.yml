@@ -27,6 +27,9 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install
+      - name: Build production files
+        run: pnpm run build
+        
       - name: List
         run: ls public
 
