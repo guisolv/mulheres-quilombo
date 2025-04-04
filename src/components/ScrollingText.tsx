@@ -29,7 +29,7 @@ export default function ScrollingText(props: PropsWithChildren) {
         return () => {
             window.removeEventListener('scroll', onScroll);
         }
-    })
+    }, [])
 
     return (
         <div className='fixed left-0 right-0 flex items-center justify-center' ref={element} style={style}>

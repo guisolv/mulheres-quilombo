@@ -1,7 +1,10 @@
-import ScrollingText from './components/ScrollingText'
+import ScrollingText from './components/scrollingText'
 import omegaLogo from './assets/omega.webp'
 import "animate.css/animate.compat.css"
 import ScrollAnimation from 'react-animate-on-scroll'
+import { womanData } from './data'
+import WomanPage from './WomanPage'
+
 
 function App() {
   return (
@@ -12,14 +15,12 @@ function App() {
       </div>
 
       <div className="spacing h-[100vh]"></div>
-      <div className="w-10/12 h-[90vh] flex flex-row mx-auto justify-center">
-
-        <ScrollAnimation animateIn='fadeInLeft' duration={0.75} delay={1.5}>
-          <div className="w-96 border-t-2 mb-4" />
-          <h1 className='font-bold text-4xl text-center'>Katú Mirim</h1>
-        </ScrollAnimation>
-        
-      </div>
+      
+      {
+        womanData.map((woman, index) => (
+          <WomanPage woman={woman} key={index} />
+        ))
+      }
 
     </main>
   )
