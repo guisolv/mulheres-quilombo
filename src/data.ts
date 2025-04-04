@@ -1,3 +1,4 @@
+import katuMirim from './assets/katu-mirim.webp'
 
 export interface Paragraph {
     name: string,
@@ -20,7 +21,7 @@ export const womanData = <Array<IWomanData>>[
             {
                 name: "Biografia",
                 text: "Katú Mirim é uma rapper, cantora, compositora, atriz e ativista da causa indígena. Katú Mirim é reconhecida por suas letras, que através do rap/rock, reconta a história da colonização pela ótica indígena, através do rap ela fala das suas vivências, identidade, gênero e orientação sexual.\nKatú mirim nasceu e cresceu  no interior paulista, ainda bebê foi adotada  e na infância descobriu que foi adotada ao completar seus 13 anos ela descobriu ser filha biológica de pai indígena e mãe negra, logo ela foi atrás da história do seu pai e estudou sua cultura,e assim se declarou indígena boe bororo.",
-                imagePath: "/katu-mirim.webp" 
+                imagePath: katuMirim
             },
             {
                 name: "Sua importância",

@@ -1,12 +1,18 @@
 import { IWomanData } from './data'
 import ScrollAnimation from 'react-animate-on-scroll'
 import HoverImage from './components/hoverImage'
+import { useEffect } from 'react'
 
 type Props = {
     woman: IWomanData
 }
 
 const WomanPage = ({woman}: Props) => {
+
+    useEffect(() => {
+        console.log(woman.paragraphs[0].imagePath)
+    })
+
     return (
         <div className="w-8/12 h-[90vh] flex flex-col mx-auto items-center">
 
