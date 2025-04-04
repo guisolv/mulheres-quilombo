@@ -1,9 +1,8 @@
 import ScrollingText from './components/scrollingText'
 import omegaLogo from './assets/omega.webp'
 import "animate.css/animate.compat.css"
-import ScrollAnimation from 'react-animate-on-scroll'
 import { womanData } from './data'
-import WomanPage from './WomanPage'
+import WomanPage from './womanPage'
 
 
 function App() {

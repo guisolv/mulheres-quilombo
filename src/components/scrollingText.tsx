@@ -1,4 +1,4 @@
-import React, { Children, PropsWithChildren, useEffect, useRef, useState } from 'react'
+import React, { PropsWithChildren, useEffect, useRef, useState } from 'react'
 import {lerp, easeInOutQuad} from '../tools'
 
 

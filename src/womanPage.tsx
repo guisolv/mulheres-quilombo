@@ -1,7 +1,5 @@
-import React from 'react'
 import { IWomanData } from './data'
 import ScrollAnimation from 'react-animate-on-scroll'
-import katuMirim from './assets/katu-mirim.webp'
 import HoverImage from './components/hoverImage'
 
 type Props = {

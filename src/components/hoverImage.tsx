@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 type Props = {
     imageUrl?: string,
@@ -8,7 +8,7 @@ type Props = {
 export default function HoverImage({ imageUrl, className }: Props) {
     const [style, setStyle] = useState<React.CSSProperties>({})
     const mouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
-        var el = e.currentTarget
+        const el = e.currentTarget
         const centerX = el.offsetLeft + el.offsetWidth / 2;
         const centerY = el.offsetTop + el.offsetHeight / 2;
 
