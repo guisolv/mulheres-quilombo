@@ -31,6 +31,9 @@ jobs:
       - name: Build project
         run: pnpm run build
 
+      - name: List
+        run: ls
+
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v3
         with:
