@@ -22,12 +22,6 @@ jobs:
           echo Successfully installed PNPM
           ls
 
-      - name: Install Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: 'pnpm'
-
       - name: Build project
         run: pnpm run build
 
