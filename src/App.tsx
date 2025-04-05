@@ -12,7 +12,7 @@ function App() {
       <header className="fixed h-20 left-0 right-0 flex flex-row bg-neutral-300 z-40">
         <img src={omegaLogo} className='h-12 ml-3 mt-3'></img>
       </header>
-      <h1 className='fixed text-4xl animate-header-text'>Mulheres da <br></br>Aldeia ao Quilombo</h1>
+      <h1 className='fixed text-4xl animate-header-text z-50'>Mulheres da <br></br>Aldeia ao Quilombo</h1>
 
       <div className="spacing h-[100vh]"></div>
 
