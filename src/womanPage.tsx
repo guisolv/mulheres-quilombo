@@ -17,8 +17,8 @@ const WomanPage = ({ woman }: Props) => {
         <div className="w-8/12 min-h-[90vh] flex flex-col mx-auto items-center">
 
             <div className="w-1/2 h-20">
-                <div className="w-96 border-t-2 mb-4 mx-auto animate-reveal-div" />
-                <h1 className='font-bold text-4xl text-center animate-reveal-div'>{woman.name}</h1>
+                <div className="w-96 border-t-2 mb-4 mx-auto border-contrast animate-reveal-div" />
+                <h1 className='font-bold text-4xl text-center text-contrast animate-reveal-div'>{woman.name}</h1>
             </div>
 
             {
@@ -26,7 +26,7 @@ const WomanPage = ({ woman }: Props) => {
                     <div className={"w-full mb-8 flex " + `${index % 2 === 0 ? "animate-paragraph-even flex-row" : "animate-paragraph flex-row-reverse"}`} key={index}>
                         <HoverImage className='' imageUrl={paragraph.imagePath} />
                         <div className="grow h-64 py-4 px-6 text-base 2xl:text-lg">
-                            <p className='indent-10 text-justify'>
+                            <p className='indent-10 text-justify text-contrast'>
                                 {paragraph.text}
                             </p>
                         </div>

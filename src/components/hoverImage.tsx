@@ -33,8 +33,8 @@ export default function HoverImage({ imageUrl, className }: Props) {
     }
 
     return (
-        <div style={style} onMouseMove={mouseMove} onMouseOut={mouseOut} className={className + "w-80 h-64 shrink-0 rounded-lg shadow-xl overflow-hidden transition-shadow hover:shadow-black/40 hover:scale-[1.02] not-hover:transition-all duration-300 not-hover:ease-in-out"}>
-            <img className='w-full h-full object-cover' src={imageUrl} />
+        <div style={style} onMouseMove={mouseMove} onMouseOut={mouseOut} className={className + "w-80 h-64 shrink-0 rounded-md shadow-xl overflow-hidden transition-shadow hover:shadow-black/40 hover:scale-[1.02] not-hover:transition-all duration-300 not-hover:ease-in-out outline-2 outline-contrast hover:outline-accent"}>
+            <img className='w-full h-full object-cover select-none' draggable={false} src={imageUrl} />
         </div>
     )
 }

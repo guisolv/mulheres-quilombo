@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@theme {
+  --color-primary: #60B5FF;
+  --color-secondary: #AFDDFF;
+  --color-background: #FFECDB;
+  --color-accent: #FF9149;
+  --color-contrast: #26160B;
+}
+
 :root {
   font-family: Inika, Georgia, 'Times New Roman', Times, serif;
   line-height: 1.5;
@@ -13,4 +21,14 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: #FF9149;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background: #FF9149;
+  text-shadow: none;
 }
