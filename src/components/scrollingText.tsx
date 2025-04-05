@@ -9,7 +9,7 @@ export default function ScrollingText(props: PropsWithChildren) {
     const element = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
-        function onScroll(_: Event | null) {
+        function onScroll(__: Event | null) {
             const scrollVar = window.scrollY / 1000
     
             const mappedValue = easeInOutQuad(Math.min(scrollVar / 0.7, 1))

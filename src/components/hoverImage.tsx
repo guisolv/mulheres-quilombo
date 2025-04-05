@@ -31,7 +31,7 @@ export default function HoverImage({ imageUrl, className }: Props) {
     }
 
     return (
-        <div style={style} onMouseMove={mouseMove} onMouseOut={mouseOut} className={className + "w-80 h-64 shrink-0 rounded-lg shadow-xl overflow-hidden hover:scale-[1.02] not-hover:transition-all not-hover:duration-300 not-hover:ease-in-out"}>
+        <div style={style} onMouseMove={mouseMove} onMouseOut={mouseOut} className={className + "w-80 h-64 shrink-0 rounded-lg shadow-xl overflow-hidden transition-shadow hover:shadow-black/40 hover:scale-[1.02] not-hover:transition-all duration-300 not-hover:ease-in-out"}>
             <img className='w-full h-full object-cover' src={imageUrl} />
         </div>
     )

@@ -8,10 +8,10 @@ import WomanPage from './womanPage'
 function App() {
   return (
     <main className='h-screen w-full'>
-      <div className="fixed h-20 left-0 right-0">
+      <header className="fixed h-20 left-0 right-0 bg-neutral-300">
         <ScrollingText>Mulheres da <br></br>Aldeia ao Quilombo</ScrollingText>
         <img src={omegaLogo} className='h-12 ml-3 mt-3'></img>
-      </div>
+      </header>
 
       <div className="spacing h-[100vh]"></div>
       
