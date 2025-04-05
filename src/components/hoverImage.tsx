@@ -8,13 +8,15 @@ type Props = {
 export default function HoverImage({ imageUrl, className }: Props) {
     const [style, setStyle] = useState<React.CSSProperties>({})
     const mouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
-        const el = e.currentTarget
-        const centerX = el.offsetLeft + el.offsetWidth / 2;
-        const centerY = el.offsetTop + el.offsetHeight / 2;
+        const rect = e.currentTarget.getBoundingClientRect()
+        const centerX = rect.left + rect.width / 2;
+        const centerY = rect.top + rect.height / 2;
 
-        const deltaX = e.pageX - centerX
-        const deltaY = e.pageY - centerY
-
+        
+        const deltaX = e.clientX - centerX
+        const deltaY = e.clientY - centerY
+        
+        console.log(deltaX, )
         const rotX = Math.pow(Math.abs(deltaX), 1.4) / 70.0 * Math.sign(deltaX);
         const rotY = Math.pow(Math.abs(deltaY), 1.4) / 70.0 * -Math.sign(deltaY);
         
