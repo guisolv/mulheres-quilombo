@@ -3,8 +3,6 @@ import omegaLogo from './assets/omega.webp'
 import "animate.css/animate.compat.css"
 import { womanData } from './data'
 import WomanPage from './womanPage'
-
-
 function App() {
   return (
     <main className='h-screen w-full'>
@@ -14,7 +12,7 @@ function App() {
       </header>
 
       <div className="spacing h-[100vh]"></div>
-      
+
       {
         womanData.map((woman, index) => (
           <WomanPage woman={woman} key={index} />

@@ -1,0 +1,22 @@
+@keyframes reveal {
+    from {
+        opacity: 0;
+        clip-path: inset(0% 30% 0% 30%);
+    }
+    75% {
+        opacity: 1;
+    }
+    to {
+        clip-path: inset(0% 0% 0% 0%);
+    }
+}
+
+.reveal-div {
+    view-timeline-name: --revealing-div;
+    view-timeline-axis: block;
+
+    animation: linear reveal both;
+    animation-timeline: --revealing-div;
+
+    animation-range: entry 30% cover 50%;
+}
