@@ -1,11 +1,13 @@
-@keyframes reveal {
+@keyframes keyframes-reveal-generic {
     from {
         opacity: 0;
         clip-path: inset(0% 30% 0% 30%);
     }
+
     75% {
         opacity: 1;
     }
+
     to {
         clip-path: inset(0% 0% 0% 0%);
     }
@@ -15,29 +17,30 @@
     view-timeline-name: --revealing-div;
     view-timeline-axis: block;
 
-    animation: linear reveal both;
+    animation: linear keyframes-reveal-generic both;
     animation-timeline: --revealing-div;
 
     animation-range: entry 30% cover 50%;
 }
 
-@keyframes animate-header {
+@keyframes keyframes-header {
     from {
         font-size: calc(4vw + 1em);
         height: 100vh;
         line-height: 5.5rem;
     }
+
     to {
         height: 5rem;
-		font-size: 1.65em;
+        font-size: 1.65em;
         line-height: 1.8rem;
     }
 }
 
 
 .animate-header-text {
-	position: fixed;
-	top: 0;
+    position: fixed;
+    top: 0;
     left: 0;
     right: 0;
     margin: auto 0;
@@ -46,26 +49,47 @@
     align-content: center;
     font-weight: bold;
 
-	animation: animate-header linear forwards;
-	animation-timeline: scroll();
-	animation-range: 0vh 90vh;
+    animation: keyframes-header linear forwards;
+    animation-timeline: scroll();
+    animation-range: 0vh 90vh;
 }
 
-@keyframes reveal-paragraph {
+@keyframes keyframes-shadow {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+.animate-reveal-shadow {
+    opacity: 0;
+    animation: keyframes-shadow linear forwards;
+    animation-timeline: scroll();
+    animation-range: 400vh 500vh;
+}
+
+@keyframes keyframes-reveal-paragraph {
     from {
         opacity: 0;
         transform: translateX(-4%);
     }
+
     to {
         opacity: 1;
         transform: translateX(0%);
     }
 }
-@keyframes reveal-paragraph-even {
+
+@keyframes keyframes-reveal-paragraph-even {
     from {
         opacity: 0;
         transform: translateX(4%);
     }
+
     to {
         opacity: 1;
         transform: translateX(0%);
@@ -76,7 +100,7 @@
     view-timeline-name: --revealing-paragraph;
     view-timeline-axis: block;
 
-    animation: cubic-bezier(0.175, 0.885, 0.32, 1.275) reveal-paragraph both;
+    animation: cubic-bezier(0.175, 0.885, 0.32, 1.275) keyframes-reveal-paragraph both;
     animation-timeline: --revealing-paragraph;
 
     animation-range: entry 20% cover 75%;
@@ -86,7 +110,7 @@
     view-timeline-name: --revealing-paragraph;
     view-timeline-axis: block;
 
-    animation: cubic-bezier(0.175, 0.885, 0.32, 1.275) reveal-paragraph-even both;
+    animation: cubic-bezier(0.175, 0.885, 0.32, 1.275) keyframes-reveal-paragraph-even both;
     animation-timeline: --revealing-paragraph;
 
     animation-range: entry 20% cover 75%;
