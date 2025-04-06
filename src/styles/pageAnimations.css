@@ -69,7 +69,7 @@
     opacity: 0;
     animation: keyframes-shadow linear forwards;
     animation-timeline: scroll();
-    animation-range: 400vh 500vh;
+    animation-range: 90vh 150vh;
 }
 
 @keyframes keyframes-reveal-paragraph {

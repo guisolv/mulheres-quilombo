@@ -32,3 +32,24 @@
   background: #FF9149;
   text-shadow: none;
 }
+
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #FFECDB;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #26160B;
+  border-radius: 1000em;
+  transition: all 100ms ease-in-out;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #FF9149;
+}
