@@ -1,10 +1,10 @@
-import ScrollingText from './components/scrollingText'
 import omegaLogo from './assets/omega.webp'
 import "animate.css/animate.compat.css"
 import { womanData } from './data'
 import WomanPage from './womanPage'
 import "./styles/app.css"
 import "./styles/pageAnimations.css"
+
 
 function App() {
   return (
