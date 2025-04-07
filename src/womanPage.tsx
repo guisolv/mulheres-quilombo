@@ -14,7 +14,7 @@ const WomanPage = ({ woman }: Props) => {
     })
 
     return (
-        <div className="w-8/12 min-h-[90vh] flex flex-col mx-auto items-center">
+        <div className="w-9/12 px-4 shadow-xl bg-background min-h-[90vh] flex flex-col mx-auto items-center">
 
             <div className="w-1/2 h-20" tabIndex={0}>
                 <div className="w-96 border-t-2 mb-4 mx-auto border-contrast animate-reveal-div" />

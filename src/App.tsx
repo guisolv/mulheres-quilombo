@@ -4,12 +4,12 @@ import { womanData } from './data'
 import WomanPage from './womanPage'
 import "./styles/app.css"
 import "./styles/pageAnimations.css"
-
+import leaf from './assets/leaf.png'
 
 function App() {
   return (
-    <main className='h-full w-full bg-background '>
-      <header className="fixed h-20 left-0 right-0 flex flex-row bg-background z-40">
+    <main className='h-full w-full'>
+      <header >
         <img src={omegaLogo} className='h-12 ml-3 mt-3'></img>
         <div className="grow"></div>
         <p className='my-auto px-6 text-lg text-contrast text-shadow-lg self-end'>1º Ano B - Colégio Omega</p>
@@ -25,6 +25,10 @@ function App() {
         ))
       }
 
+
+      <img className='fixed w-96 h-96 bottom-0 animate-leaf -translate-x-16 translate-y-16 -z-10' src={leaf}></img>
+      
+      <img className='fixed w-96 h-96 bottom-0 right-0 -scale-x-100 animate-leaf translate-x-96 translate-y-16 -z-10' src={leaf}></img>
     </main>
   )
 }

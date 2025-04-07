@@ -115,3 +115,26 @@
 
     animation-range: entry 20% cover 75%;
 }
+
+@keyframes keyframes-leaf {
+    from {
+        rotate: 0deg;
+    }
+
+    50% {
+        rotate: -5deg;
+    }
+
+    to{
+        rotate: 0deg
+    }
+}
+
+
+.animate-leaf {
+    animation-name: keyframes-leaf;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    transform-origin: 10% 90%;
+}

@@ -1,0 +1,12 @@
+header {
+    position: fixed;
+    height: 5rem;
+    left: 0;
+    right: 0;   
+
+    display: flex;
+    flex-direction: row;
+
+    background-color: #FFECDB;
+    z-index: 40;
+}
