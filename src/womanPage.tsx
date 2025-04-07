@@ -25,7 +25,7 @@ const WomanPage = ({ woman }: Props) => {
                 woman.paragraphs.map((paragraph, index) => (
                     <div className={"w-full mb-8 flex " + `${index % 2 === 0 ? "animate-paragraph-even flex-row" : "animate-paragraph flex-row-reverse"}`} key={index} tabIndex={0}>
                         <HoverImage className='' imageUrl={paragraph.imagePath} />
-                        <div className="growA h-64 py-4 px-6 flex flex-row items-center text-base 2xl:text-lg">
+                        <div className="grow h-64 py-4 px-6 flex flex-row items-center text-sm xl:text-base 2xl:text-lg">
                             <p className='indent-10 text-justify text-contrast'>
                                 {paragraph.text}
                             </p>

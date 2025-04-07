@@ -27,13 +27,13 @@
     from {
         font-size: calc(4vw + 1em);
         height: 100vh;
-        line-height: 5.5rem;
+        line-height: calc(4.5vw + 1rem);
     }
 
     to {
         height: 5rem;
-        font-size: 1.65em;
-        line-height: 1.8rem;
+        font-size: calc(1vw + 0.75em);
+        line-height: calc(1vw + 0.8rem);
     }
 }
 
