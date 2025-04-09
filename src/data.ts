@@ -122,5 +122,16 @@ export const womanData = <Array<IWomanData>>[
                 text: "Seu legado simboliza a luta das mulheres negras e quilombolas por liberdade e igualdade. Em reconhecimento à sua importância, o dia 25 de julho, Dia da Mulher Negra, Latina e Caribenha, foi oficializado no Brasil como Dia Nacional de Tereza de Benguela e da Mulher Negra."
             }
         ]
+    },
+    {
+        name: "Tia Ciata",
+        paragraphs: [
+            {
+                text: "Hilária Batista de Almeida, mais conhecida como Tia Ciata, foi uma personalidade negra de grande importância para a cultura brasileira. Ela viveu na segunda metade do século XIX e teve papel essencial na criação e difusão do samba. Ciata era mãe de santo e morava em uma casa na Praça Onze, no Rio de Janeiro. Lá recebia muitos músicos e abria espaço para que cantassem e tocassem em um momento em que o samba era proibido por lei. Acredita-se que foi em seu quintal onde surgiu o primeiro samba gravado, que se chamou Pelo Telefone, de autoria atribuída ao sambista Donga."
+            },
+            {
+                text: "Nascida em 13 de janeiro de 1854 no Recôncavo Baiano, ainda jovem iniciou-se na Irmandade da Boa Morte, associação afro-católica que cultuava os orixás e ancestralidade africana. Ciata se mudou para a cidade do Rio de Janeiro em 1876, aos 22 anos e com uma filha. Ao se instalar em terras cariocas, a baiana leva referências do samba de roda (originário do Recôncavo Baiano), além de conhecimentos de ervas e culto aos orixás. Ciata se casa com João Baptista da Silva, um funcionário público, e com ele tem 14 filhos."
+            }
+        ]
     }
 ];
