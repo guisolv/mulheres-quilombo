@@ -108,5 +108,19 @@ export const womanData = <Array<IWomanData>>[
                 text: "Em 2018, candidatou-se a vice-presidente pelo PSOL. Em 2022, foi eleita deputada federal por São Paulo e tornou-se a primeira ministra dos Povos Indígenas do Brasil no governo Lula. Reconhecida internacionalmente, foi incluída na lista das 100 pessoas mais influentes do mundo pela Time em 2022 e das 100 mulheres mais inspiradoras pela BBC em 2023. Sônia Guajajara emergiu como uma das vozes mais influentes do movimento indígena no Brasil."
             }
         ]
+    }, 
+    {
+        name: "Tereza de Benguela",
+        paragraphs: [
+            {
+                text: "Tereza de Benguela foi uma líder quilombola do século XVIII, conhecida por sua resistência contra a escravidão no Brasil. Ela liderou o Quilombo do Quariterê, localizado na região onde hoje é o Mato Grosso, após a morte de seu companheiro, José Piolho. Sob sua liderança, o quilombo prosperou por duas décadas, resistindo a investidas das forças coloniais."
+            },
+            {
+                text: "Tereza organizou uma estrutura política e econômica auto suficiente, baseada na agricultura, no artesanato e no comércio. Além disso, o quilombo mantinha um sistema de defesa contra ataques dos portugueses. Infelizmente, em 1770, o quilombo foi destruído pelas tropas da coroa portuguesa, e Tereza foi capturada e morta."
+            },
+            {
+                text: "Seu legado simboliza a luta das mulheres negras e quilombolas por liberdade e igualdade. Em reconhecimento à sua importância, o dia 25 de julho, Dia da Mulher Negra, Latina e Caribenha, foi oficializado no Brasil como Dia Nacional de Tereza de Benguela e da Mulher Negra."
+            }
+        ]
     }
 ];
