@@ -14,6 +14,11 @@ import dandaraPalmares4 from './assets/dandara-palmares4.webp'
 import tiaCiata1 from "./assets/tia-ciata1.jpg"
 import tiaCiata2 from "./assets/tia-ciata2.jpg"
 
+import terezaBenguela1 from "./assets/tereza-benguela1.jpg"
+import terezaBenguela2 from "./assets/tereza-benguela2.jpg"
+import terezaBenguela3 from "./assets/tereza-benguela3.jpg"
+
+
 export interface Paragraph {
     name: string,
     text: string,
@@ -116,13 +121,16 @@ export const womanData = <Array<IWomanData>>[
         name: "Tereza de Benguela",
         paragraphs: [
             {
-                text: "Tereza de Benguela foi uma líder quilombola do século XVIII, conhecida por sua resistência contra a escravidão no Brasil. Ela liderou o Quilombo do Quariterê, localizado na região onde hoje é o Mato Grosso, após a morte de seu companheiro, José Piolho. Sob sua liderança, o quilombo prosperou por duas décadas, resistindo a investidas das forças coloniais."
+                text: "Tereza de Benguela foi uma líder quilombola do século XVIII, conhecida por sua resistência contra a escravidão no Brasil. Ela liderou o Quilombo do Quariterê, localizado na região onde hoje é o Mato Grosso, após a morte de seu companheiro, José Piolho. Sob sua liderança, o quilombo prosperou por duas décadas, resistindo a investidas das forças coloniais.",
+                imagePath: terezaBenguela1
             },
             {
-                text: "Tereza organizou uma estrutura política e econômica auto suficiente, baseada na agricultura, no artesanato e no comércio. Além disso, o quilombo mantinha um sistema de defesa contra ataques dos portugueses. Infelizmente, em 1770, o quilombo foi destruído pelas tropas da coroa portuguesa, e Tereza foi capturada e morta."
+                text: "Tereza organizou uma estrutura política e econômica auto suficiente, baseada na agricultura, no artesanato e no comércio. Além disso, o quilombo mantinha um sistema de defesa contra ataques dos portugueses. Infelizmente, em 1770, o quilombo foi destruído pelas tropas da coroa portuguesa, e Tereza foi capturada e morta.",
+                imagePath: terezaBenguela2
             },
             {
-                text: "Seu legado simboliza a luta das mulheres negras e quilombolas por liberdade e igualdade. Em reconhecimento à sua importância, o dia 25 de julho, Dia da Mulher Negra, Latina e Caribenha, foi oficializado no Brasil como Dia Nacional de Tereza de Benguela e da Mulher Negra."
+                text: "Seu legado simboliza a luta das mulheres negras e quilombolas por liberdade e igualdade. Em reconhecimento à sua importância, o dia 25 de julho, Dia da Mulher Negra, Latina e Caribenha, foi oficializado no Brasil como Dia Nacional de Tereza de Benguela e da Mulher Negra.",
+                imagePath: terezaBenguela3
             }
         ]
     },
