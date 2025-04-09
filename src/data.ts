@@ -11,6 +11,11 @@ import dandaraPalmares2 from './assets/dandara-palmares2.webp'
 import dandaraPalmares3 from './assets/dandara-palmares3.webp'
 import dandaraPalmares4 from './assets/dandara-palmares4.webp'
 
+import soniaGuajajara1 from "./assets/sonia-guajajara1.jpg"
+import soniaGuajajara2 from "./assets/sonia-guajajara2.jpg"
+import soniaGuajajara3 from "./assets/sonia-guajajara3.jpg"
+import soniaGuajajara4 from "./assets/sonia-guajajara4.jpg"
+
 import tiaCiata1 from "./assets/tia-ciata1.jpg"
 import tiaCiata2 from "./assets/tia-ciata2.jpg"
 
@@ -101,19 +106,23 @@ export const womanData = <Array<IWomanData>>[
         paragraphs: [
             {
                 name: "Biografia",
-                text: "Sônia Guajajara, nascida em 6 de março de 1974 na Terra Indígena Arariboia, Maranhão, é uma proeminente líder indígena e política brasileira, pertencente ao povo Guajajara/Tenetehara. Sua trajetória é marcada pela defesa dos direitos dos povos indígenas e pela luta por justiça social e ambiental.\nSonia enfrentou desafios comuns a muitas comunidades indígenas, como a falta de acesso à educação e a violação de direitos territoriais."
+                text: "Sônia Guajajara, nascida em 6 de março de 1974 na Terra Indígena Arariboia, Maranhão, é uma proeminente líder indígena e política brasileira, pertencente ao povo Guajajara/Tenetehara. Sua trajetória é marcada pela defesa dos direitos dos povos indígenas e pela luta por justiça social e ambiental.\nSonia enfrentou desafios comuns a muitas comunidades indígenas, como a falta de acesso à educação e a violação de direitos territoriais.",
+                imagePath: soniaGuajajara1
             },
             {
                 name: "Biografia",
-                text: "Aos 15 anos, contrariando a vontade dos pais, deixou sua terra natal para estudar o ensino médio em Minas Gerais, com o suporte da Funai. Após concluir essa etapa, retornou ao Maranhão e graduou-se em Letras e Enfermagem pela Universidade Estadual do Maranhão (UEMA), além de realizar pós-graduação em Educação Especial.\nSua militância iniciou-se na Coordenação das Organizações e Articulações dos Povos Indígenas do Maranhão (COAPIMA), posteriormente integrando a Coordenação das Organizações Indígenas da Amazônia Brasileira (COIAB)."
+                text: "Aos 15 anos, contrariando a vontade dos pais, deixou sua terra natal para estudar o ensino médio em Minas Gerais, com o suporte da Funai. Após concluir essa etapa, retornou ao Maranhão e graduou-se em Letras e Enfermagem pela Universidade Estadual do Maranhão (UEMA), além de realizar pós-graduação em Educação Especial.\nSua militância iniciou-se na Coordenação das Organizações e Articulações dos Povos Indígenas do Maranhão (COAPIMA), posteriormente integrando a Coordenação das Organizações Indígenas da Amazônia Brasileira (COIAB).",
+                imagePath: soniaGuajajara2
             },
             {
                 name: "Biografia",
-                text: "Ganhou destaque nacional e internacional ao assumir a coordenação executiva da Articulação dos Povos Indígenas do Brasil (APIB), organização que representa e articula as lutas dos povos indígenas em nível nacional e internacional. Sob sua liderança, a APIB ganhou visibilidade global, denunciando as ameaças aos territórios indígenas e ao meio ambiente, representando os povos indígenas em diversos fóruns globais, incluindo o Conselho de Direitos Humanos da ONU, onde defende a importância dos povos indígenas na proteção das florestas e na mitigação das mudanças climáticas, e o Parlamento Europeu."
+                text: "Ganhou destaque nacional e internacional ao assumir a coordenação executiva da Articulação dos Povos Indígenas do Brasil (APIB), organização que representa e articula as lutas dos povos indígenas em nível nacional e internacional. Sob sua liderança, a APIB ganhou visibilidade global, denunciando as ameaças aos territórios indígenas e ao meio ambiente, representando os povos indígenas em diversos fóruns globais, incluindo o Conselho de Direitos Humanos da ONU, onde defende a importância dos povos indígenas na proteção das florestas e na mitigação das mudanças climáticas, e o Parlamento Europeu.",
+                imagePath: soniaGuajajara3
             },
             {
                 name: "Biografia",
-                text: "Em 2018, candidatou-se a vice-presidente pelo PSOL. Em 2022, foi eleita deputada federal por São Paulo e tornou-se a primeira ministra dos Povos Indígenas do Brasil no governo Lula. Reconhecida internacionalmente, foi incluída na lista das 100 pessoas mais influentes do mundo pela Time em 2022 e das 100 mulheres mais inspiradoras pela BBC em 2023. Sônia Guajajara emergiu como uma das vozes mais influentes do movimento indígena no Brasil."
+                text: "Em 2018, candidatou-se a vice-presidente pelo PSOL. Em 2022, foi eleita deputada federal por São Paulo e tornou-se a primeira ministra dos Povos Indígenas do Brasil no governo Lula. Reconhecida internacionalmente, foi incluída na lista das 100 pessoas mais influentes do mundo pela Time em 2022 e das 100 mulheres mais inspiradoras pela BBC em 2023. Sônia Guajajara emergiu como uma das vozes mais influentes do movimento indígena no Brasil.",
+                imagePath: soniaGuajajara4
             }
         ]
     }, 
