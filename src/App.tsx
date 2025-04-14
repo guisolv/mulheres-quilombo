@@ -30,7 +30,9 @@ function App() {
       
       <img className='fixed w-96 h-96 bottom-0 right-0 -scale-x-100 animate-leaf translate-x-96 translate-y-16 -z-10' src={leaf}></img>
 
-      <div className="h-96"></div>
+      <div className="w-9/12 h-12 mx-auto bg-background"></div>
+      <div className="h-96 w-full"></div>
+      
     </main>
   )
 }

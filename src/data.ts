@@ -157,3 +157,8 @@ export const womanData = <Array<IWomanData>>[
         ]
     }
 ];
+
+export const references = [
+    "https://diversos22.sescsp.org.br/convidados/38/katu-mirim",
+    "https://celacc.eca.usp.br/sites/default/files/tcc/caroline_soares_almeida_-_cultura_indigena_as_midias_sociais_como_ferramenta_decolonial_e_processo_de_resistencia_-_caroline_almeida.pdf"
+]
