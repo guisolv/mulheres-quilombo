@@ -14,7 +14,7 @@ import dandaraPalmares4 from './assets/dandara-palmares4.webp'
 import soniaGuajajara1 from "./assets/sonia-guajajara1.jpg"
 import soniaGuajajara2 from "./assets/sonia-guajajara2.jpg"
 import soniaGuajajara3 from "./assets/sonia-guajajara3.jpg"
-import soniaGuajajara4 from "./assets/sonia-guajajara4.jpg"
+import soniaGuajajara4 from "./assets/sonia-guajajara4.png"
 
 import tiaCiata1 from "./assets/tia-ciata1.jpg"
 import tiaCiata2 from "./assets/tia-ciata2.jpg"
