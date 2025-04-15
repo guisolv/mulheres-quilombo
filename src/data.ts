@@ -158,7 +158,12 @@ export const womanData = <Array<IWomanData>>[
     }
 ];
 
-export const references = [
-    "https://diversos22.sescsp.org.br/convidados/38/katu-mirim",
-    "https://celacc.eca.usp.br/sites/default/files/tcc/caroline_soares_almeida_-_cultura_indigena_as_midias_sociais_como_ferramenta_decolonial_e_processo_de_resistencia_-_caroline_almeida.pdf"
+export const sources = [
+    "https://pt.wikipedia.org/wiki/Katú_Mirim",
+    "https://pt.wikipedia.org/wiki/Esperança_Garcia",
+    "https://www.conjur.com.br/2022-nov-26/negra-escravizada-reconhecida-primeira-advogada-pais/",
+    "https://pt.wikipedia.org/wiki/Sônia_Guajajara",
+    "https://brasilescola.uol.com.br/historia/dandara-dos-palmares.htm",
+    "https://pt.wikipedia.org/wiki/Tereza_de_Benguela",
+    "https://www.ebiografia.com/tia_ciata/",
 ]

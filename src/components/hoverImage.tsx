@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 type Props = {
     imageUrl?: string,
-    className?: string,
+    className?: string
 }
 
 export default function HoverImage({ imageUrl, className }: Props) {
